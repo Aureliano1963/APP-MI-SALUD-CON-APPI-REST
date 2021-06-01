@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:context=".Expediente">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXPEDIENTE"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUMERO DE EXPEDIENTE:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+
+            android:id="@+id/txtExpediente"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_expediente"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textvie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE DEL MEDICO:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtDoctor"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_name"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE DEL PACIENTE:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtPaciente"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_name"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FECHA CITA:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_fecha"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HORA DE INICIO:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtInicioHora"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_horainicio"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HORA DE FINALIZACION:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtFinHora"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_horafinal"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESPECIALIDAD:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtEspecialida"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_especialidad"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROCEDIMIENTO:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtProcedim"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_procedimiento"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUCURSAL:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtSucurs"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_sucursales"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESTADO CITA:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtEstadocita"
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/ic_action_estado"
+            android:layout_height="33dp"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBSERVACIONES:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtObservacion"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:drawableStart="@drawable/ic_action_especialidad"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESTADOS:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="08dp" />
+
+        <Spinner
+            android:id="@+id/spEstados"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:textAlignment="center"
+           />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btncerrar"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_bg"
+                android:text="Cerrar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

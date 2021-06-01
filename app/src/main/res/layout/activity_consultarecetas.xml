@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:context=".Expediente">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTA"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE DEL PACIENTE:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+
+            android:id="@+id/txtNPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_name"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FECHA CITA:"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtFechaC"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_fecha"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HORA CITA:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtHoraC"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_horainicio"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESPECIALIDAD:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtEspecialidaC"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_especialidad"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROCEDIMIENTO:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtPlan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/ic_action_procedimiento"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUCURSAL:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtSucursC"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_sucursales"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTIVO:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtMotivo"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:drawableStart="@drawable/ic_action_motivo"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIAGNOSTICO:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/txtDiagnostico"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:drawableStart="@drawable/ic_action_especialidad"
+            android:textColor="#10532B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/cerrar"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_bg"
+                android:text="Cerrar" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
